@@ -1,3 +1,6 @@
+*{
+    margin: 0;
+}
 .cartBlock{
     background-color: silver;
     width: 400px;
@@ -12,10 +15,24 @@
     margin: 0;
 }
 .header{
+    padding: 10px;
     display: flex;
     background-color: pink;
     justify-content: space-between;
 }
 .productBlock{
-    background-color: orange;
+    background: linear-gradient(silver,pink);
+
+}
+.row{
+    display: flex;
+    justify-content: center;
+}
+.box{
+    width: 300px;
+    margin: 10px;
+    background-color: white;
+    padding: 10px;
+    border: 1px solid grey;
+    border-radius: 20px;
 }
