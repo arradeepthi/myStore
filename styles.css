@@ -8,12 +8,10 @@
     top: 0px;
     left: 100%;
     height: 100%;
-    transition: 1s;
+    transition: 2s;
     padding: 20px;
 }
-.container{
-    margin: 0;
-}
+
 .header{
     padding: 10px;
     display: flex;
@@ -26,14 +24,65 @@
 }
 .row{
     display: flex;
+    flex-wrap:wrap;
     justify-content: center;
 
 }
 .box{    
-    flex-grow: 1;
     margin: 10px;
     background-color: white;
     padding: 10px;
-    border: 1px solid grey;
     border-radius: 20px;
+}
+.login{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+    margin: 100px;
+    width: 500px;
+    height: 280px;
+}
+.login input, button{
+    margin: 10px;
+    padding: 10px;
+}
+
+.login input{
+    width: 200px;
+}
+.login button{
+    background-color: rgb(56, 56, 215);
+    color: white;
+}
+.login button:hover{
+    transform: scale(1.15);
+}
+.registration{
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+    margin: 100px;
+    width: 500px;
+    height: 400px;
+}
+.registration input, button{
+    margin: 10px;
+    padding: 10px;
+}
+.registration input{
+    width: 200px;
+}
+.registration button{
+    background-color: rgb(56, 56, 215);
+    color: white;
+}
+.registration button:hover{
+    transform: scale(1.15);
+}
+.menu li{
+    display: inline-block;
+    padding: 5px;
 }
